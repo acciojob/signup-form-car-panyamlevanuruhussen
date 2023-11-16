@@ -8,8 +8,6 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	
-    <script type="text/javascript" src="./script.js">
 	<form method="post">
 		<label for="name">Name</label>
 		<input type="Text" id="name" placeholder="Name" required>
@@ -17,12 +15,11 @@
 		<label for="email">Email</label>
 		<input type="Email" id="email" placeholder="Email" required> 
 		<br>
-		<label>Gender</label>
-		<label for="Gender_m" >Male</label>
-		<input name="Gender" type="radio" id="gender_m" value="male">
+		<label for="Gender" >Gender</label>
+		<input name="Gender" type="Radio" id="gender_m" required>
+		<label for="gender_m">Male</label>
+		<input  name="gender_f" type="Radio" id="gender_f" required>
 		<label for="gender_f">Female</label>
-		<input  name="gender_f" type="radio" id="gender_f" value="female">
-		
 		
 		<br>
 		<label for="cars" >Car Brands</label>
@@ -50,6 +47,8 @@
 		<button type="submit">submit</button>
 		
 	</form>
+    <script type="text/javascript" src="./script.js">
+	
 </script>
 
 </body>
